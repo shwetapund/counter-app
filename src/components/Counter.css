@@ -1,0 +1,27 @@
+.counter-box{
+    box-shadow: 0px 0px 10px 1px lightgray;
+    padding-top: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.btn-same-css{
+    margin: 40px;
+}
+.pause:hover{
+    color: white !important;
+}
+@media screen and (max-width:568px){
+    .counter-box{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+ 
+    .counter-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-same-css{
+        margin-top: 25px;
+    }
+}
